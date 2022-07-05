@@ -1,6 +1,7 @@
+/* eslint-disable no-unused-vars */
 export default class BooksDataClass {
-    constructor() {
-      return [];
-    }
+  constructor() {
+    return [];
   }
-export let booksData = new BooksDataClass();
+}
+const booksData = new BooksDataClass();

@@ -1,11 +1,14 @@
 /* eslint-disable max-classes-per-file */
+/* eslint-disable no-undef */
+/* eslint-disable no-unused-vars */
+
 import * as variables from './modules/variables.js';
 import * as spa from './modules/spa.js';
 import * as val from './modules/validation.js';
 import ds from './modules/dataStructure.js';
-import {BookConstructor} from './modules/bookConstructor.js';
+import BookConstructor from './modules/bookConstructor.js';
 import DynamicModule from './modules/dynamic.js';
-import {DateTime} from './modules/luxon.min.js';
+import { DateTime } from './modules/luxon.min.js';
 
 // ---------------------- SETTING TIME ------------------------ //
 const dateP = document.querySelector('.dateParagraph');
