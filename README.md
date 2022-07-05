@@ -4,7 +4,7 @@ Awesome books: plain JavaScript with objects
 
 ## Acces link
 
-> https://vitorguedesmadeira.github.io/AwesomeBooks-Project/
+> https://vitorguedesmadeira.github.io/AwesomeBooks-Module/
 
 ## Built With
 
