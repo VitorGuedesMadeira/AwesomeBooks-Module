@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 25px;
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  background-image: url(../images/jon-r8AFUpRp0J0-unsplash.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  font-weight: 900;
+  transition: background-image 2s;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  background-color: rgba(255, 255, 255, 0.736);
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+}
+
+header p {
+  font-family: 'Lobster', cursive;
+  font-size: 1.5em;
+}
+
+.navbar {
+  display: flex;
+  gap: 12px;
+  list-style-type: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding: 12px;
+  color: black;
+  font-weight: 900;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  transition: all 0.2s;
+}
+
+.navbar-a:nth-child(2) {
+  border-left: 2px solid grey;
+  border-right: 2px solid grey;
+}
+
+.navbar-a:hover > a,
+.navbar-a:focus > a {
+  color: rgba(139, 70, 176, 0.641);
+  transform: scale(1.1);
+}
+
+#booksCollection {
+  display: flex;
+  flex-direction: column;
+  height: 65vh;
+  gap: 50px;
+  transition: all 1s;
+  animation: books 1.5s;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  text-shadow: 0 0 30px white;
+}
+
+#books {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(70, 60, 77);
+  border-radius: 5px;
+  width: 100%;
+  overflow: hidden;
+  overflow-y: scroll;
+  max-height: 306px;
+  background-color: rgba(255, 255, 255, 0.736);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+}
+
+.displayFlex {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 80%;
+}
+
+.liStyles {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgba(173, 144, 208, 0.84);
+  padding: 5px 10px;
+}
+
+.liStyles:nth-child(even) {
+  background-color: transparent;
+}
+
+.buttons {
+  padding: 5px 10px;
+  border: 2px solid rgb(70, 60, 77);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+  font-weight: 900;
+  height: 40px;
+  border-radius: 5px;
+  background-image: linear-gradient(to top, rgba(128, 0, 128, 0.454), transparent);
+}
+
+#newBookSection {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  height: 65vh;
+  animation: books 1.5s;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 25px;
+  width: 50%;
+}
+
+form input {
+  width: 100%;
+  border: 2px solid rgb(70, 60, 77);
+  padding: 15px;
+  border-radius: 5px;
+}
+
+#addBtn {
+  padding: 5px 10px;
+  border: 2px solid rgb(70, 60, 77);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+  width: 100px;
+  font-weight: 700;
+  font-size: 1.4em;
+  border-radius: 5px;
+  background-image: linear-gradient(to top, rgba(128, 0, 128, 0.454), transparent);
+}
+
+.addBtnSide {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#addBtn:hover,
+#addBtn:focus {
+  transform: scale(1.05);
+  background-color: rgba(139, 70, 176, 0.641);
+  transition-duration: 0.5s;
+}
+
+.buttons:hover,
+.buttons:focus {
+  transform: scale(1.05);
+  background-color: rgba(139, 70, 176, 0.641);
+  transition-duration: 0.5s;
+}
+
+#error {
+  font-family: 'Courier New', sans-serif;
+  color: rgb(194, 54, 54);
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.hide {
+  display: none !important;
+}
+
+#contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding: 0 130px;
+  min-height: 65vh;
+  transition: all 0.3s;
+  animation: books 1.5s;
+}
+
+#contactForm ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.date {
+  position: absolute;
+  right: 25px;
+  top: 100px;
+}
+
+.footer {
+  padding: 12px 24px;
+  background-color: rgba(255, 255, 255, 0.736);
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+}
+
+.buttons:active {
+  transform: scale(0.97);
+}
+
+#addBtn:active {
+  transform: scale(0.97);
+}
+
+@keyframes books {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-image:
+      url(../images/cloudtest2.png),
+      url(../images/test4.png),
+      url(../images/jon-r8AFUpRp0J0-unsplash.jpg);
+    background-size:
+      cover,
+      cover,
+      cover;
+    background-position:
+      center center,
+      center center,
+      bottom bottom;
+    transition: background-image 3s;
+  }
+
+  #addBtn {
+    padding: 5px 10px;
+    width: auto;
+    font-weight: 700;
+    font-size: 1em;
+  }
+
+  .header {
+    justify-content: center;
+  }
+
+  .header p {
+    display: none;
+  }
+
+  .date {
+    font-size: 0.7em;
+  }
+
+  #newBookSection {
+    gap: 25px;
+    margin-bottom: 20px;
+  }
+
+  #newBookSection > * {
+    width: 70%;
+  }
+
+  #contactForm {
+    padding: 0 25px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .date {
+    display: none;
+  }
+}

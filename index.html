@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Books Project</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <header class="header">
+      <p>Awesome Books</p>
+      <nav>
+        <ul class="navbar">
+          <li class="navbar-a list"><a href="#booksCollection">List</a></li>
+          <li class="navbar-a newBook"><a href="#newBookSection">Add new</a></li>
+          <li class="navbar-a contactForm"><a href="#contactForm">Contact us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>  
+        <div class="date">
+            <small class="dateParagraph"></small>
+        </div>
+
+        <section id="booksCollection">
+            <h1>All awesome Books</h1>
+            <ul id="books">
+                
+            </ul>
+        </section>
+
+        <div id="newBookSection" class="hide">
+            <h1>Add a new book</h1>
+              <form>
+                <input id="titleId" type="text" placeholder="Title" >
+                <input id="authorId" type="text" placeholder="Author" >
+                <span id="error"></span>
+                <div class="addBtnSide"><button id="addBtn">Add</button></div>
+              </form>
+        </div>
+
+        <div id="contactForm" class="hide">
+            <h1>Contact information</h1>
+            <h2>Do you have any questions or you just want to say Hello? You can reach out to us!</h2>
+            <ul>
+              <li><p>Our e-mail: mail@mail.com</p></li>
+              <li><p>Our phone number: +55(51)985615374</p></li>
+              <li><p>Our address: Streetname 22, 123456 City, Country</p></li>
+            </ul>
+            <div class="cloud">
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+      <p>Copyright © 2022 Vitor G. and Alejandro T.</p>
+    </footer>
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
