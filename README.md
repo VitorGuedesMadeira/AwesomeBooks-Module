@@ -6,9 +6,17 @@ Awesome books: plain JavaScript with objects
 
 > https://vitorguedesmadeira.github.io/AwesomeBooks-Module/
 
-## Acces link for cloning repository
+## Getting Started
+To get a local copy up and running follow these simple example steps.
 
-https://github.com/VitorGuedesMadeira/AwesomeBooks-Module.git
+Prerequisites
+A modern web browser like Chrome, Safari, Firefox, etc.
+JavaScript enabled.
+Setup
+Open the Repository Link of this project in GitHub.
+Install
+Clone the repository on your local machine, using this command:
+git clone https://github.com/VitorGuedesMadeira/AwesomeBooks-Module.git
 
 ## Built With
 
