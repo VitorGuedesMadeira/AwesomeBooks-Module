@@ -2,9 +2,13 @@
 # AwesomeBooks-Project
 Awesome books: plain JavaScript with objects
 
-## Acces link
+## Acces link to live version
 
 > https://vitorguedesmadeira.github.io/AwesomeBooks-Module/
+
+## Acces link for cloning repository
+
+https://github.com/VitorGuedesMadeira/AwesomeBooks-Module.git
 
 ## Built With
 
@@ -13,15 +17,9 @@ Awesome books: plain JavaScript with objects
 - Javascript
 - LocalStorage
 - VScode
+- JS Modules
 
-## Authors
-
-👤 **Alejandro Torres**
-
-- GitHub: [@aizijicod](https://github.com/aizjicod)
-- Twitter: [@aizijijr](https://twitter.com/aizijijr)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/aiziji/)
-
+## Author
 
 👤 **Vitor Guedes Madeira**
 
